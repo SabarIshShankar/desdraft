@@ -53,13 +53,25 @@ export default function Card1() {
           <span class="font-bold text-xl">
             <img class="w-full" src="logo.jpg" alt="logo" />
           </span>
+
+          <span class="flex font-bold text-xl">
+            <img class="w-full px-2" src="discount.jpg" alt="logo" />
+            <img class="w-full" src="save.jpg" alt="logo" />
+          </span>
         </div>
 
         <h2 className="text-2xl my-4">
           Claim Exclusive Discounts for products around you
         </h2>
         <div class="bg-gray-100 text-left mb-5 py-5 px-4 rounded">
-          <p class="text-1xl">New campaigns launching soon </p>
+          <p class="text-1xl flex">
+            <img
+              class="h-5 pr-2"
+              src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/party-popper_1f389.png"
+              alt="cel"
+            />
+            New campaigns launching soon{" "}
+          </p>
           <div class="underline text-left pt-5">Get Email Alerts</div>{" "}
         </div>
 
@@ -70,7 +82,7 @@ export default function Card1() {
                 <img
                   src={product.imageSrc}
                   alt={product.imageAlt}
-                  className="w-full h-48 lg:h-full object-center object-cover group-hover:opacity-75"
+                  className="w-full h-48 lg:h-1/2 object-center object-cover group-hover:opacity-75"
                 />
                 <span>
                   <i class="fas overlay">
