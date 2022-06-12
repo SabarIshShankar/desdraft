@@ -18,3 +18,10 @@
   top: 0;
   right: 0;
 }
+
+.border-1 {
+  border-radius: 20px;
+  border: 5px;
+  border-style: dotted 1px #db9406;
+  border-color: #db9406;
+}

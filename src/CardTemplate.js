@@ -5,31 +5,31 @@ import "./styles/tailwind-pre-build.css";
 export default function Card2() {
   return (
     <div className="m-5">
-      <div class="bg-white rounded-lg mt-5">
+      <div className="bg-white rounded-lg mt-5">
         <img
-          class="rounded-lg object-contain h-48 w-96"
+          className="rounded-lg object-contain h-48 w-96"
           src="https://glimpse-public-images.s3.us-east-2.amazonaws.com/Lyric+Terracotta+SOLO+Undocked.jpg"
           alt=""
         />
 
-        <div class="pt-2">
-          <h5 class="text-1xl font-bold">Lyric Massage Gun</h5>
-          <div class="flex space-x-3 lg:mt-6">
+        <div className="pt-2">
+          <h5 className="text-1xl font-bold">Lyric Massage Gun</h5>
+          <div className="flex space-x-3 lg:mt-6">
             <h5
               href="#"
-              class="text-2xl inline-flex items-center text-sm font-medium text-center rounded-lg"
+              className="text-2xl inline-flex items-center text-sm font-medium text-center rounded-lg"
             >
               $136
             </h5>
             <h5
               href="#"
-              class="text-2xl right inline-flex items-center py-2 px-4 line-through text-gray-500 text-sm font-medium text-center rounded-lg  hover:bg-gray-100 focus:ring-4"
+              className="text-2xl right inline-flex items-center py-2 px-4 line-through text-gray-500 text-sm font-medium text-center rounded-lg  hover:bg-gray-100 focus:ring-4"
             >
               $159
             </h5>
           </div>
 
-          <h1 class="inline-flex items-center text-sm font-medium">
+          <h1 className="inline-flex items-center text-sm font-medium">
             <svg
               width="20"
               height="20"
@@ -49,31 +49,31 @@ export default function Card2() {
         </div>
       </div>
 
-      <div class="bg-white rounded-lg mt-5">
+      <div className="bg-white rounded-lg mt-5">
         <img
-          class="rounded-lg object-contain h-48"
+          className="rounded-lg object-contain h-48"
           src="https://www.leisureopportunities.co.uk/images/2020/HIGH346125_638445_675041.jpg"
           alt=""
         />
 
-        <div class="pt-2">
-          <h5 class="text-1xl font-bold">Lyric Massage Gun</h5>
-          <div class="flex space-x-3 lg:mt-6">
+        <div className="pt-2">
+          <h5 className="text-1xl font-bold">Lyric Massage Gun</h5>
+          <div className="flex space-x-3 lg:mt-6">
             <h5
               href="#"
-              class="text-2xl inline-flex items-center text-sm font-medium text-center rounded-lg"
+              className="text-2xl inline-flex items-center text-sm font-medium text-center rounded-lg"
             >
               $136
             </h5>
             <h5
               href="#"
-              class="text-2xl right inline-flex items-center py-2 px-4 line-through text-gray-500 text-sm font-medium text-center rounded-lg  hover:bg-gray-100 focus:ring-4"
+              className="text-2xl right inline-flex items-center py-2 px-4 line-through text-gray-500 text-sm font-medium text-center rounded-lg  hover:bg-gray-100 focus:ring-4"
             >
               $159
             </h5>
           </div>
 
-          <h1 class="inline-flex items-center text-sm font-medium">
+          <h1 className="inline-flex items-center text-sm font-medium">
             <svg
               width="20"
               height="20"
@@ -92,24 +92,24 @@ export default function Card2() {
           </h1>
         </div>
       </div>
-      <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-        <div class="group relative">
-          <div class="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+      <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <div className="group relative">
+          <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
             <img
               src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
               alt="Front of men&#039;s Basic Tee in black."
-              class="w-full h-full object-center object-cover lg:w-full lg:h-full"
+              className="w-full h-full object-center object-cover lg:w-full lg:h-full"
             />
           </div>
-          <div class="mt-4 flex justify-between">
+          <div className="mt-4 flex justify-between">
             <div>
-              <h3 class="text-sm text-gray-700">
-                <span aria-hidden="true" class="absolute inset-0"></span>
+              <h3 className="text-sm text-gray-700">
+                <span aria-hidden="true" className="absolute inset-0"></span>
                 Basic Tee
               </h3>
-              <p class="mt-1 text-sm text-gray-500">Black</p>
+              <p className="mt-1 text-sm text-gray-500">Black</p>
             </div>
-            <p class="text-sm font-medium text-gray-900">$35</p>
+            <p className="text-sm font-medium text-gray-900">$35</p>
           </div>
         </div>
       </div>

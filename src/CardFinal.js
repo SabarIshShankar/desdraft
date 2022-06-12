@@ -49,30 +49,30 @@ export default function Card1() {
   return (
     <div className="bg-white App">
       <div className="max-w-2xl mb-10 mx-auto py-4 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-        <div class="flex justify-between items-center">
-          <span class="font-bold text-xl">
-            <img class="w-full" src="logo.jpg" alt="logo" />
+        <div className="flex justify-between items-center">
+          <span className="font-bold text-xl">
+            <img className="w-full" src="logo.jpg" alt="logo" />
           </span>
 
-          <span class="flex font-bold text-xl">
-            <img class="w-full px-2" src="discount.jpg" alt="logo" />
-            <img class="w-full" src="save.jpg" alt="logo" />
+          <span className="flex font-bold text-xl">
+            <img className="w-full px-2" src="discount.jpg" alt="logo" />
+            <img className="w-full" src="save.jpg" alt="logo" />
           </span>
         </div>
 
         <h2 className="text-2xl my-4">
           Claim Exclusive Discounts for products around you
         </h2>
-        <div class="bg-gray-100 text-left mb-5 py-5 px-4 rounded">
-          <p class="text-1xl flex">
+        <div className="bg-gray-100 text-left mb-5 py-5 px-4 rounded">
+          <p className="text-1xl flex">
             <img
-              class="h-5 pr-2"
+              className="h-5 pr-2"
               src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/party-popper_1f389.png"
               alt="cel"
             />
             New campaigns launching soon{" "}
           </p>
-          <div class="underline text-left pt-5">Get Email Alerts</div>{" "}
+          <div className="underline text-left pt-5">Get Email Alerts</div>{" "}
         </div>
 
         <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
@@ -85,7 +85,7 @@ export default function Card1() {
                   className="w-full h-48 lg:h-1/2 object-center object-cover group-hover:opacity-75"
                 />
                 <span>
-                  <i class="fas overlay">
+                  <i className="fas overlay">
                     <svg
                       width="56"
                       height="56"
@@ -165,18 +165,21 @@ export default function Card1() {
                   </i>
                 </span>
               </div>
-              <div class="mt-4 flex justify-between">
+              <div className="mt-4 flex justify-between">
                 <div>
-                  <h3 class="text-1xl text-gray-700">
-                    <span aria-hidden="true" class="absolute inset-0"></span>
+                  <h3 className="text-1xl text-gray-700">
+                    <span
+                      aria-hidden="true"
+                      className="absolute inset-0"
+                    ></span>
                     {product.name}
                   </h3>
                 </div>
-                <div class="flex p-1 bg-gray-100 rounded-lg">
-                  <p class="text-sm font-medium px-2">{product.reviews}</p>
+                <div className="flex p-1 bg-gray-100 rounded-lg">
+                  <p className="text-sm font-medium px-2">{product.reviews}</p>
 
                   <svg
-                    class=""
+                    className=""
                     width="15"
                     height="15"
                     viewBox="0 0 13 13"
@@ -193,10 +196,10 @@ export default function Card1() {
 
               <p className="mb-1 text-2xl font-medium">
                 {product.price}{" "}
-                <span class="line-through text-gray-500">{product.st}</span>
+                <span className="line-through text-gray-500">{product.st}</span>
               </p>
 
-              <span class="inline-flex items-center text-sm font-medium mb-10">
+              <span className="inline-flex items-center text-sm font-medium mb-10">
                 <svg
                   width="20"
                   height="20"
