@@ -2,13 +2,11 @@ import React from "react";
 import "./styles.css";
 import "./styles/tailwind-pre-build.css";
 import Card1 from "./Card1";
-import Card2 from "./Card2";
 
 export default function App() {
   return (
     <div class="App">
       <Card1 />
-      <Card2 />
 
       <div class="bg-white">
         <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">

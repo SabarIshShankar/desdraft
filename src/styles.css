@@ -6,3 +6,15 @@
 .App {
   font-family: EV;
 }
+
+.container1 {
+  position: relative;
+}
+.container1 img {
+  display: block;
+}
+.container1 .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

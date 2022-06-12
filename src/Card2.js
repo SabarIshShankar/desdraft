@@ -5,11 +5,6 @@ import "./styles/tailwind-pre-build.css";
 export default function Card2() {
   return (
     <div className="m-5">
-      <div class="bg-gray-100 text-left py-5 px-4 rounded">
-        <p class="text-1xl">New campaigns launching soon </p>
-        <div class="underline text-left pt-5">Get Email Alerts</div>{" "}
-      </div>
-
       <div class="bg-white rounded-lg mt-5">
         <img
           class="rounded-lg object-contain h-48 w-96"
