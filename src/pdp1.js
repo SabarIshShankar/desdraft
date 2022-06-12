@@ -67,7 +67,7 @@ export default function Pdp1() {
           <h1 className="text-1xl text-gray-500 py-2">REVIEWS</h1>
 
           <div class="flex fixed bg-white shadow-top pt-3 max-w-2xl mx-auto px-4  lg:max-w-7xl lg:px-8">
-            <button class="mx-2 w-1/2 text-lg items-center justify-center h-12 rounded-lg bg-gray-100 border-sec">
+            <button class="mx-2 w-1/2 text-lg items-center justify-center h-12 rounded-lg border-sec">
               Save for later
             </button>
             <button class="mx-2 w-1/2 text-lg h-12 rounded-lg blue-navy text-white">

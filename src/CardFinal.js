@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import "./styles/tailwind-pre-build.css";
+import ReactPlayer from "react-player";
 
 export default function Card1() {
   const products = [
@@ -82,7 +83,7 @@ export default function Card1() {
                 <img
                   src={product.imageSrc}
                   alt={product.imageAlt}
-                  className="w-full h-48 lg:h-1/2 object-center object-cover group-hover:opacity-75"
+                  className="w-full h-64 lg:h-1/2 object-center object-cover group-hover:opacity-75"
                 />
                 <span>
                   <i className="fas overlay">
@@ -219,6 +220,7 @@ export default function Card1() {
             </div>
           ))}
         </div>
+        <ReactPlayer url="https://www.youtube.com/watch?v=UVCP4bKy9Iw" />
       </div>
     </div>
   );
