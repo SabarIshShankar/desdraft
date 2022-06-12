@@ -19,9 +19,25 @@
   right: 0;
 }
 
-.border-1 {
-  border-radius: 20px;
-  border: 5px;
+.border {
+  border-radius: 10px;
+  border: 5px dotter #db9406;
   border-style: dotted 1px #db9406;
   border-color: #db9406;
+}
+.border-sec {
+  border: 2px solid #202037;
+}
+.fixed {
+  position: fixed;
+  height: 70px;
+  background-color: white;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+.blue-navy {
+  background-color: #202037;
 }

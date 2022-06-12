@@ -26,7 +26,7 @@ export default function Pdp1() {
             />
           </div>
           <h1 className="text-2xl py-2">Luxome Lightweight Blanket</h1>
-          <p className="text-1xl py-2">
+          <p className="text-sm py-2">
             With a thinner profile than a traditional comforter, this perfectly
             soft & breathable quilted blanket will keep you comfortable all year
             round. The naturally thermal-regulating bamboo viscose fabric and
@@ -42,12 +42,37 @@ export default function Pdp1() {
 
           <h1 className="text-1xl text-gray-500 py-2">OFFERS</h1>
 
-          <div className="flex justify-between items-center">
-            <span className="text-xl">Use code to get 20%</span>
+          <div className="flex justify-between items-center drop-shadow-md">
+            <span className="text-sm">Copy & Use code to get 20%</span>
 
-            <div className="flex text-xl">
-              <button class="border-1 p-3">GLIMPSE-KPI101</button>
+            <div className="pt-2 flex text-sm drop-shadow-md">
+              <button class="border drop-shadow-md border-dashed border-5 p-3">
+                GLIMPSE-KPI101
+              </button>
             </div>
+          </div>
+
+          <div className="pt-2 flex justify-between items-center">
+            <span className="text-sm">Use code to get 25% off site wide</span>
+
+            <div className="flex text-sm ">
+              <button class="border drop-shadow-md border-dashed border-5 p-3">
+                GLIMPSE-KPI101
+              </button>
+            </div>
+          </div>
+
+          <div className="border-b pt-5"></div>
+
+          <h1 className="text-1xl text-gray-500 py-2">REVIEWS</h1>
+
+          <div class="flex fixed bg-white shadow-top pt-3 max-w-2xl mx-auto px-4  lg:max-w-7xl lg:px-8">
+            <button class="mx-2 w-1/2 text-lg items-center justify-center h-12 rounded-lg bg-gray-100 border-sec">
+              Save for later
+            </button>
+            <button class="mx-2 w-1/2 text-lg h-12 rounded-lg blue-navy text-white">
+              Buy Now &#62;
+            </button>
           </div>
         </div>
       </div>
