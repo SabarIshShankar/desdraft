@@ -47,7 +47,7 @@ export default function Card1() {
   ];
 
   return (
-    <div className="bg-white">
+    <div className="bg-white App">
       <div className="max-w-2xl mb-10 mx-auto py-4 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
         <div class="flex justify-between items-center">
           <span class="font-bold text-xl">
@@ -168,7 +168,7 @@ export default function Card1() {
               <div class="mt-4 flex justify-between">
                 <div>
                   <h3 class="text-1xl text-gray-700">
-                    <h1 aria-hidden="true" class="absolute inset-0"></h1>
+                    <span aria-hidden="true" class="absolute inset-0"></span>
                     {product.name}
                   </h3>
                 </div>
