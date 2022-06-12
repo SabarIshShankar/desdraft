@@ -12,7 +12,7 @@ export default function Card1() {
       st: "$145",
       reviews: "5.0",
       imageSrc:
-        "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg"
+        "https://cdn.shopify.com/s/files/1/0026/5178/3237/products/minky-minky-grey-rc-2_1080x.png?v=1640931533"
     },
     {
       id: 2,
@@ -22,33 +22,39 @@ export default function Card1() {
       st: "$180",
       reviews: "4.5",
       imageSrc:
-        "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg"
+        "https://glimpse-public-images.s3.us-east-2.amazonaws.com/Lyric+Terracotta+SOLO+Undocked.jpg"
     },
     {
       id: 3,
-      name: "Focus Paper Refill",
+      name: "Bella notte sheet collection",
       href: "#",
       price: "$89",
       st: "$85",
       reviews: "4.5",
       imageSrc:
-        "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg"
+        "https://cdn.shopify.com/s/files/1/1829/6041/products/Bria-Cotton-Sateen-Fitted-Sheet-White-1_large.png?v=1641220301"
     },
     {
       id: 4,
-      name: "Machined Mechanical Pencil",
+      name: "Hypervolt go",
       href: "#",
-      price: "$35",
-      st: "$85",
+      price: "$225",
+      st: "$295",
       reviews: "4.5",
       imageSrc:
-        "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg"
+        "https://images.ctfassets.net/sa0xzxw55dr7/6DvPKSRuXGsPs6618Ypjov/11632283f2372bea3e2c544839f03b96/hypervolt-go-final-thumbnail.jpg"
     }
   ];
 
   return (
     <div className="bg-white">
-      <div className="max-w-2xl mb-10 mx-auto py-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+      <div className="max-w-2xl mb-10 mx-auto py-4 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+        <div class="flex justify-between items-center">
+          <span class="font-bold text-xl">
+            <img class="w-full" src="logo.jpg" alt="logo" />
+          </span>
+        </div>
+
         <h2 className="text-2xl my-4">
           Claim Exclusive Discounts for products around you
         </h2>
