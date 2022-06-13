@@ -165,7 +165,7 @@ export default function Pdp1() {
               Save for later
             </button>
             <button className="mx-2 w-1/2 text-lg h-12 rounded-lg blue-navy text-white outline-none focus:outline-none">
-              Buy Now &#62;
+              Buy Now ->
             </button>
           </div>
         </div>
