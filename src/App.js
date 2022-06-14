@@ -7,6 +7,7 @@ import f04 from "./404";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Discounts from "./discounts";
 import loader from "./loader";
+import Vip from "./vip";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/discounts" component={Discounts} />
           <Route path="/f04" component={f04} />
           <Route path="/loader" component={loader} />
+          <Route path="/vip" component={Vip} />
         </Route>
       </Switch>
     </Router>

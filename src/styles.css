@@ -9,7 +9,7 @@
 
 .container1 {
   position: relative;
-  background-color: #efefef
+  background-color: #efefef;
 }
 .container1 img {
   display: block;
@@ -21,9 +21,9 @@
 }
 
 .border {
-  border: 1px dashed #DB9406;
-box-shadow: 0px 1px 4.25962px rgba(0, 0, 0, 0.1);
-border-radius: 11px;
+  border: 1px dashed #db9406;
+  box-shadow: 0px 1px 4.25962px rgba(0, 0, 0, 0.1);
+  border-radius: 11px;
 }
 .border-sec {
   border: 2px solid #202037;
@@ -37,7 +37,15 @@ border-radius: 11px;
   right: 0px;
   margin-bottom: 0px;
 }
-
+.fixed2 {
+  position: fixed;
+  height: 70px;
+  background-color: white;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
 .blue-navy {
   background-color: #202037;
 }
@@ -51,6 +59,13 @@ border-radius: 11px;
   width: 50%;
   padding: 5px;
 }
+.bg-grad-1 {
+  background: linear-gradient(287.43deg, #e3bda2 -3.53%, #202037 90%);
+}
+
+.bg-grad-2 {
+  background: linear-gradient(112.18deg, #db9406 2.55%, #db7906 91.07%);
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -59,38 +74,41 @@ border-radius: 11px;
   clear: both;
 }
 
-.bg-neutral-100{
-  background: #FBFBFB;
-  border: 1px solid #F0F0F0;
+.bg-neutral-100 {
+  background: #fbfbfb;
+  border: 1px solid #f0f0f0;
 }
 
-.rounded-lg-down{
+.rounded-lg-down {
   border-radius: 0 0 5px 5px;
 }
 
-.rounded-lg-top{
+.rounded-lg-top {
   border-radius: 5px 5px 0 0;
 }
 
-.shadow-top{
+.shadow-top {
   box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.05);
 }
 
-
-.f04{
+.f04 {
   background: url(https://uploads-ssl.webflow.com/5fd35bef4aad67a77bb5ebf2/612248ae41a1f2495b3da75c_collov-home-design-HmHArS-HvNw-unsplash-p-800.jpeg);
-position: absolute;
-width: 259px;
-height: 386px;
-border-radius: 151.5px 151.5px 0px 0px;
-margin: auto;
-}
-
-.center{
+  position: absolute;
+  width: 259px;
+  height: 386px;
+  border-radius: 151.5px 151.5px 0px 0px;
   margin: auto;
-  width:50%;
 }
 
-.f404{
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+.f404 {
   border-radius: 150px 150px 0 0;
+}
+
+.bg-gray-50 {
+  background: #fdfdfd;
 }

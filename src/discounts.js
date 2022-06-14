@@ -7,7 +7,7 @@ export default function Discounts() {
   const products = [
     {
       id: 1,
-      name: "Luxome Bed Sheets",
+      name: "Pillow Guy Bamboo Bath & Hand Towel",
       href: "#",
       price: "$124",
       st: "$145",

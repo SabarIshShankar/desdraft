@@ -3,8 +3,8 @@ import "./loader.css";
 
 export default function loader() {
   return (
-    <div class="loader container">
-      <div class="loader loader--style1" title="0">
+    <div className="loader container">
+      <div className="loader loader--style1" title="0">
         <svg
           version="1.1"
           id="loader-1"
